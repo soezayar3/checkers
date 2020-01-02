@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HumanVsGameAI</title>
+        <link rel="stylesheet" type="text/css" href="GUI.css">
+        <script src="UI.js"></script>
+        <script src="Board.js"></script>
+        <script src="AI.js"></script>
+    </head>
+
+    <body>
+        <div class="column">
+    <div class="stats">
+      <h2>Game Statistics</h2>
+      <div class="wrapper">
+      <div id="player1">
+        <h3>Human (Bottom)</h3>
+      </div>
+      <div id="player2">
+        <h3>Game AI (Top)</h3>
+      </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="turn"></div>
+      <span id="winner"></span>
+      <a href="ai.html" id="cleargame">Play Again</a>
+      <a href="file:///home/soezayar/Desktop/Kyar/mode.html" id="choosemode">Choose Mode</a>
+    </div>
+  </div>
+        <div id="tablePrint" style="float:right;"> </div>
+        <div id="graph"></div>
+    </body>
+
+    <script> 
+        var testing = false;
+        var select_ai = false;
+        var select_human = false;
+        var select_ai_king = false;
+        var select_human_king = false;
+    </script>
+
+</html> 
